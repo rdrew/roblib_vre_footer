@@ -1,0 +1,5 @@
+roblib_vre_footer:
+    version: 1.x
+    css:
+        theme:
+            css/roblib_vre_footer.css: { preprocess: false }

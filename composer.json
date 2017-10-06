@@ -1,0 +1,14 @@
+{
+  "name": "drupal/roblib_vre_footer",
+  "type": "drupal-module",
+  "description": "standardized vre footer",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/roblib_vre_footer",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/roblib_vre_footer",
+    "source": "http://cgit.drupalcode.org/roblib_vre_footer"
+  },
+  "require": { }
+}

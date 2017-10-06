@@ -1,0 +1,130 @@
+@import "breakpoint";
+
+$footer-breakpoint: 800px;
+//$footer-bg: #2b2b2b;
+$footer-bg: blue;
+$separator: 4px solid rgb(139, 31, 3);
+$subfooter-bg: #1A1C1D;
+$menu-text-color: #898989;
+$menu-title-color: #d4d4d4;
+$upei-links-color: #999;
+$link-font-size: .8rem;
+$address-color: #898989;
+
+.vre-footer-menus, .vre-subfooter {
+  text-align: center;
+  @include breakpoint($footer-breakpoint) {
+    text-align: initial;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+  a {
+      text-decoration: none;
+      color: $menu-text-color;
+    font-family: sans-serif;
+    transition: all .4s ease;
+    &:hover {
+      color: rgb(247, 183, 81);
+    }
+    }
+}
+.vre-footer-menus {
+  background: $footer-bg;
+  border-bottom: $separator;
+  padding: 1rem;
+  ul {
+
+  }
+}
+.vre-footer-menu {
+  .title {
+    color: #fff;
+    margin:0;
+    margin-bottom: 4px;
+    font-weight: normal;
+    color: $menu-title-color;
+    
+  }
+  ul {
+        
+    border-left: 1px solid $menu-text-color;
+    padding-left: 5px;
+    font-size: $link-font-size;
+    line-height: 1.2rem;
+    
+  }
+  margin-bottom: 1rem;
+  @include breakpoint($footer-breakpoint) {
+    margin-bottom: 0;
+  }
+}
+ul.upei-links {
+  @include breakpoint($footer-breakpoint) {
+    display: flex;
+    li {
+      border-right: 1px solid $address-color;
+      margin-right: 4px;
+      padding-right: 4px;
+      line-height: .8rem;
+    }
+  }
+  a {
+    font-size: .8rem;
+  }
+}
+.upei-address {
+  font-size: $link-font-size;
+  color: $address-color;
+  margin-bottom: .5rem;
+  
+}
+
+.logos {
+  li {
+    margin-left: 4px;
+  }
+}
+.vre-subfooter {
+  background: $subfooter-bg;
+  padding: 1rem;
+  &__left {
+    padding-top: .5rem;
+  }
+}
+.vre-subfooter__right {
+  display: flex;
+  justify-content: space-around;
+  @include breakpoint($footer-breakpoint) {
+    justify-content: initial;
+  }
+  
+}
+
+/* layout */
+ul.upei-links {
+  margin-bottom: 1rem;
+}
+.logos {
+  display: flex;
+  align-items: center;
+  
+}
+@include breakpoint($footer-breakpoint) {
+  ul.upei-links {
+    margin-bottom: 0;
+  }
+  .vre-footer-menus {
+    display: flex;
+  }
+  .vre-footer-menu {
+    flex: 1;
+  }
+  .vre-subfooter {
+    display: flex;
+    justify-content: space-between;
+  }
+}

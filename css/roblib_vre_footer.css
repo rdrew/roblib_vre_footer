@@ -1,0 +1,116 @@
+.vre-footer-menus,
+.vre-subfooter {
+  text-align: center; }
+  @media (min-width: 800px) {
+    .vre-footer-menus,
+    .vre-subfooter {
+      text-align: initial; } }
+  .vre-footer-menus ul,
+  .vre-subfooter ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+  .vre-footer-menus a,
+  .vre-subfooter a {
+    text-decoration: none;
+    color: #898989;
+    font-family: sans-serif;
+    transition: all 0.4s ease; }
+    .vre-footer-menus a:hover,
+    .vre-subfooter a:hover {
+      color: #f7b751; }
+
+.vre-footer-menus {
+  background: #2b2b2b;
+  border-bottom: 4px solid #8b1f03;
+  padding: 1rem; }
+
+.vre-footer-menu {
+  margin-bottom: 1rem; }
+  .vre-footer-menu .title {
+    color: #fff;
+    margin: 0;
+    margin-bottom: 4px;
+    font-weight: normal;
+    color: #d4d4d4; }
+  .vre-footer-menu ul {
+    border-left: 1px solid #898989;
+    padding-left: 5px;
+    font-size: 0.8rem;
+    line-height: 1.2rem; }
+  @media (min-width: 800px) {
+    .vre-footer-menu {
+      margin-bottom: 0; } }
+
+@media (min-width: 800px) {
+  ul.upei-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    ul.upei-links li {
+      border-right: 1px solid #898989;
+      margin-right: 4px;
+      padding-right: 4px;
+      line-height: .8rem; }
+      ul.upei-links li:last-child {
+        border-right: 0; } }
+
+ul.upei-links a {
+  font-size: .8rem; }
+
+.upei-address {
+  font-size: 0.8rem;
+  color: #898989;
+  margin-bottom: .5rem; }
+
+.logos li {
+  margin-left: 4px; }
+
+.vre-subfooter {
+  background: #1a1c1d;
+  padding: 1rem; }
+  .vre-subfooter__left {
+    padding-top: .5rem; }
+
+.vre-subfooter__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+  @media (min-width: 800px) {
+    .vre-subfooter__right {
+      -webkit-box-pack: initial;
+          -ms-flex-pack: initial;
+              justify-content: initial; } }
+
+/* layout */
+ul.upei-links {
+  margin-bottom: 1rem; }
+
+.logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+@media (min-width: 800px) {
+  ul.upei-links {
+    margin-bottom: 0; }
+  .vre-footer-menus {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .vre-footer-menu {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1; }
+  .vre-subfooter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; } }

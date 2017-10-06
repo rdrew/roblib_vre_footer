@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains roblib_vre_footer.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function roblib_vre_footer_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the roblib_vre_footer module.
+    case 'help.page.roblib_vre_footer':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('standardized vre footer') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function roblib_vre_footer_theme() {
+  return [
+    'roblib_vre_footer' => [
+      'render element' => 'children',
+    ],
+  ];
+}
