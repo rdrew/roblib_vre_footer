@@ -38,7 +38,7 @@ class footerBlock extends BlockBase {
             <ul class="links">
             <li class="leaf"><a href="http://www.upei.ca/research/research-services/find-researcher" title="">Find a Researcher</a></li>
             <li class="leaf"><a href="http://www.upei.ca/research/forms" title="">Research Forms</a></li>
-            <li class="leaf"><a href="http://www.nserc-crsng.gc.ca/International-Internationale/Index_eng.asp">NSERC</a>&nbsp;<a href=".">/</a>&nbsp;<a href="http://www.cihr-irsc.gc.ca/e/27171.html">CIHR</a>&nbsp;<a href=".">/</a>&nbsp;<a href="http://www.sshrc-crsh.gc.ca/funding-financement/index-eng.aspx">SSHRC</a></li>
+            <li class="leaf"><a href="http://www.nserc-crsng.gc.ca/index_eng.asp">NSERC</a>&nbsp;<a href=".">/</a>&nbsp;<a href="http://www.cihr-irsc.gc.ca/e/46880.html">CIHR</a>&nbsp;<a href=".">/</a>&nbsp;<a href="http://www.sshrc-crsh.gc.ca/funding-financement/index-eng.aspx">SSHRC</a></li>
             <li class="leaf"><a href="http://www.genomecanada.ca/">Genome Canada</a>&nbsp;<a href=".">/</a>&nbsp;<a href="http://www.innovation.ca/">CFI</a></li>
             </ul>
             </div>
@@ -57,7 +57,7 @@ class footerBlock extends BlockBase {
             <ul class="links">
             <li class="leaf first"><a href="http://islandscholar.ca">IslandScholar.ca</a></li>
             <li class="leaf first"><a href="http://files.upei.ca/research/upei_open_access_policy.pdf">UPEI Open Access Policy</a></li>
-            <li class="leaf first"><a href="http://www.carl-abrc.ca/en/scholarly-communications/resources-for-authors.html">CARL Author Resources</a></li>
+            <li class="leaf first"><a href="http://www.carl-abrc.ca/advancing-research/scholarly-communication/info-for-authors/">CARL Author Resources</a></li>
             <li class="leaf first"><a href="http://www.openoasis.org/">OASIS SourceBook</a></li>
             </ul>
             </div>
