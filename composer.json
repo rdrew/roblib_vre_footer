@@ -4,6 +4,7 @@
   "description": "standardized vre footer",
   "keywords": ["Drupal"],
   "license": "GPL-2.0+",
+  "version": "master",
   "homepage": "https://www.drupal.org/project/roblib_vre_footer",
   "minimum-stability": "dev",
   "support": {
